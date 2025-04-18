@@ -6,9 +6,9 @@ devices:
     connections:
       cli:
         protocol: telnet
-        ip: 10.195.184.192
-        port: 2029
+        ip:
+        port: 
         credentials:
           default:
-            username: miles
-            password: ikarem
+            username: 
+            password:
