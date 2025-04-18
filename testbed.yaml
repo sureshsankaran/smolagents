@@ -1,0 +1,14 @@
+# testbed.yaml
+devices:
+  switch1:
+    type: cat9k
+    os: iosxe
+    connections:
+      cli:
+        protocol: telnet
+        ip: 10.195.184.192
+        port: 2029
+        credentials:
+          default:
+            username: miles
+            password: ikarem
