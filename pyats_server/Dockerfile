@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy MCP server script and testbed
-COPY mcp_server_pyats_w_session.py mcp_server_pyats.py
+COPY mcp_server_pyats.py mcp_server_pyats.py
 COPY testbed.yaml .
 
 # Expose any necessary ports (optional, for debugging)
